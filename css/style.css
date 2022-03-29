@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* centrar todo el contenido en el centro */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 15px;
+  background-color: rgb(195, 235, 235);
+}
+
+.caja {
+    background-color: rgb(70, 97, 97);
+    padding: 40px;
+    border-radius: 20px;
+    border: mediumturquoise;
+}
+
+.letras {
+    color: white;
+    font-size: 50px;
+}
